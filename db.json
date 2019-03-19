@@ -1,0 +1,35 @@
+{
+  "login": {
+    "username": "nbn",
+    "password": "nbn"
+  },
+  "match": {
+    "teamA": {
+      "id": 1,
+      "name": "Turkey",
+      "players": [{
+          "id": 1,
+          "number": 3
+        },
+        {
+          "id": 2,
+          "number": 6
+        }
+      ]
+    },
+    "teamB": {
+      "id": 2,
+      "name": "Spain",
+      "players": [{
+          "id": 3,
+          "number": 4
+        },
+        {
+          "id": 4,
+          "number": 6
+        }
+      ]
+    }
+  },
+  "actions": []
+}

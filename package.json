@@ -1,0 +1,31 @@
+{
+  "name": "nbn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prepare": "react-native link react-native-background-timer",
+    "start": "npx json-server db.json && node node_modules/react-native/local-cli/cli.js start",
+    "devices:ios": "xcrun simctl list devices",
+    "run:ios": "react-native run-ios --simulator='iPad Pro (12.9-inch) (2nd generation)'",
+    "run:android": "react-native run-android",
+    "clear": "watchman watch-del-all && rm yarn.lock && rm -rf node_modules && rm -rf $TMPDIR/metro-* && rm -rf $TMPDIR/haste-map-* && yarn",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.1",
+    "react-native-background-timer": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "json-server": "^0.14.2",
+    "metro-react-native-babel-preset": "^0.53.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
