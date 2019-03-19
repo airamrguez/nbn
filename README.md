@@ -4,7 +4,7 @@
 ![Alt text](screenshots/ios-login.png?raw=true 'iOS Sign in')
 ![Alt text](screenshots/android.png?raw=true 'Android Panel')
 
-First install the dependencies using running `yarn` on the root directory.
+First install the dependencies using running `yarn` on the root directory and link modules excecuting `yarn prepare`.
 
 Run the app
 
